@@ -25,3 +25,6 @@ The User Interface of the App was intially designed on Adobe xD and then the app
 - Click on Government Site and it sends you to the official government website. 
 - Go back to the home screen. Click on news. 
 - All the current news can be accessed through this tab, regarding Novel COVID-19.
+
+**Data Flow Process**:-
+![](CorAidApp/blob/master/app/src/main/res/drawable-v24/Data%20Flow%20Process.jpeg)
