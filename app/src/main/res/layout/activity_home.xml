@@ -31,33 +31,36 @@
     </TextView>
 
     <Button
+        android:id="@+id/schedule"
         android:layout_width="380dp"
         android:layout_height="150dp"
         android:layout_gravity="center_vertical"
         android:fadingEdge="horizontal"
         android:background="@color/turq"
         android:paddingLeft="10dp"
-        android:text="Schedule a Visit"
-        android:textSize="30dp"
+        android:text="@string/schedule_a_visit"
+        android:textSize="26dp"
         android:typeface="serif"
         android:drawableLeft="@drawable/ic_schedule_black_24dp">
     </Button>
 
 
     <Button
+        android:id="@+id/info"
         android:layout_width="380dp"
         android:layout_height="150dp"
         android:layout_gravity="center_vertical"
         android:fadingEdge="horizontal"
         android:background="@color/pastelRed"
         android:paddingLeft="10dp"
-        android:text="Information"
+        android:text="@string/information"
         android:textSize="30dp"
         android:typeface="serif"
         android:drawableLeft="@drawable/ic_info_outline_black_24dp">
     </Button>
 
     <Button
+        android:id="@+id/helpline"
         android:layout_width="380dp"
         android:layout_height="150dp"
         android:layout_gravity="center_vertical"
@@ -75,6 +78,7 @@
     </Button>
 
     <Button
+        android:id="@+id/news"
         android:layout_width="380dp"
         android:layout_height="150dp"
         android:layout_gravity="center_vertical"
@@ -94,7 +98,7 @@
     <TextView
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:text="Created by Team eYRC#1928"
+        android:text="@string/created_by_team_eyrc_1928"
         android:textAlignment="center"
         android:textSize="18dp"
         android:gravity="center_horizontal">
@@ -104,4 +108,3 @@
 </LinearLayout>
 
 </ScrollView>
-git config --global user.name "Rishit Jain"

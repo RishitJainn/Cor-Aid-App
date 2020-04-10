@@ -2,4 +2,17 @@
     <string name="app_name">Cor-Aid</string>
     <string name="greetings">Greetings!</string>
     <string name="helpline">Helpline</string>
+    <string name="call_helpline">Call Helpline</string>
+    <string name="government_site">Government Site</string>
+    <string name="_24x7_helpline">24x7 Helpline</string>
+    <string name="schedule_a_visit">Schedule a Visit</string>
+    <string name="information">Information</string>
+    <string name="created_by_team_eyrc_1928">Created by Team eYRC#1928</string>
+    <string name="enter_your_details">Enter your Details</string>
+    <string name="address">Address:</string>
+    <string name="submit_data">Submit Data</string>
+    <string name="help_required">Help Required:</string>
+    <string name="dd_mm_yyyy">DD-MM-YYYY</string>
+    <string name="name">Name</string>
+    <string name="visit_date">Visit Date:</string>
 </resources>
