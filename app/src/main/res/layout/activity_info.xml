@@ -1,9 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InfoActivity">
+    android:background="@drawable/background"
+    android:scrollbarStyle="outsideOverlay"
+    android:paddingTop="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp"
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:divider="@drawable/empty_divider">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="223dp"
+            android:src="@drawable/coraid_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="133dp"
+            android:gravity=""
+            android:text="@string/point1"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="133dp"
+            android:gravity=""
+            android:text="@string/Title"
+            android:textColor="@color/black"
+            android:fontFamily="@font/baloo_paaji_bold"
+            android:textAlignment="center"
+            android:textSize="26dp"
+            tools:ignore="RtlCompat" />
+
+
+        <ImageView
+            android:layout_width="297dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:src="@drawable/follow" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo_paaji_regular"
+            android:gravity=""
+            android:text="@string/point2"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:layout_width="297dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:src="@drawable/handwash" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo_paaji_regular"
+            android:gravity=""
+            android:text="@string/point3"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:layout_width="297dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sneeze" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo_paaji_regular"
+            android:gravity=""
+            android:text="@string/point4"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:layout_width="297dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:src="@drawable/contact" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="133dp"
+            android:gravity=""
+            android:text="@string/point5"
+            android:textColor="@color/black"
+            android:fontFamily="@font/baloo_paaji_regular"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:layout_width="297dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:src="@drawable/spitting" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo_paaji_regular"
+            android:gravity=""
+            android:text="@string/point6"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:layout_width="297dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:src="@drawable/medical" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="133dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo_paaji_regular"
+            android:gravity=""
+            android:text="@string/point7"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+</ScrollView>

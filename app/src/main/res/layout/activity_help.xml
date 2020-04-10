@@ -61,6 +61,7 @@
         android:background="@drawable/round_button"
         android:gravity="center_horizontal"
         android:padding="10dp"
+        android:onClick="open"
         android:text="@string/government_site"
         android:textAlignment="center"
         android:textColor="#000000"

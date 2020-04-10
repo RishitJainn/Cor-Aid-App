@@ -53,7 +53,7 @@
         android:fadingEdge="horizontal"
         android:background="@color/pastelRed"
         android:paddingLeft="10dp"
-        android:text="@string/information"
+        android:text="@string/instructions"
         android:textSize="30dp"
         android:typeface="serif"
         android:drawableLeft="@drawable/ic_info_outline_black_24dp">

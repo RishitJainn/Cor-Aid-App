@@ -10,4 +10,5 @@
     <color name="pastelRed">#ffaaa5</color>
     <color name="darkRed">#ff8b94</color>
     <color name="turq">#8DF1DA</color>
+    <color name="black">#000000</color>
 </resources>
